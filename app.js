@@ -70,7 +70,6 @@ app.get("/", (req, res) => {
   res.redirect("/listings");
 });
 
-
 //app.get("/", (req, res) => {
 //   res.send("Hi, I am root");
 //});
@@ -117,6 +116,6 @@ app.use((err, req, res, next) => {
   //res.status(statusCode).send(message);
 });
 
-app.listen(PORT, () => {
-    console.log(`server is listening to port ${PORT}`);
+app.listen(8080, () => {
+    console.log("server is listening to port 8080");
 });
