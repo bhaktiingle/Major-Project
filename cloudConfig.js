@@ -11,7 +11,7 @@ const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
     folder: 'stayo_Dev',
-    allowed_formats: ["png", "jpg", "jpeg"],
+    allowed_formats: ["png", "jpg", "jpeg", "avif"],
   },
 });
 
